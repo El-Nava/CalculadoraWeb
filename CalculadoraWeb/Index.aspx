@@ -34,30 +34,30 @@
         <br />
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="%" CssClass="boton-operacion" />
-        <asp:Button ID="Button2" runat="server" Text="√" CssClass="boton-operacion" />
-        <asp:Button ID="Button3" runat="server" Text="CE" CssClass="boton-ce" />
-        <asp:Button ID="Button4" runat="server" Text="C" CssClass="boton-c" />
+        <asp:Button ID="Bntporcentaje" runat="server" Text="%" CssClass="boton-operacion" OnClick="ButtonClick" />
+        <asp:Button ID="Bntraiz" runat="server" Text="√" CssClass="boton-operacion" OnClick="ButtonClick" />
+        <asp:Button ID="BntCE" runat="server" Text="CE" CssClass="boton-ce" OnClick="ButtonClick" />
+        <asp:Button ID="BntC" runat="server" Text="C" CssClass="boton-c" OnClick="ButtonClick" />
         <br />
-        <asp:Button ID="Button5" runat="server" Text="7" CssClass="boton-numero" />
-        <asp:Button ID="Button6" runat="server" Text="8" CssClass="boton-numero" />
-        <asp:Button ID="Button7" runat="server" Text="9" CssClass="boton-numero" />
-        <asp:Button ID="Button8" runat="server" Text="-" CssClass="auto-style1" Width="85px" />
+        <asp:Button ID="Bnt7" runat="server" Text="7" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt8" runat="server" Text="8" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt9" runat="server" Text="9" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bntmenos" runat="server" Text="-" CssClass="auto-style1" Width="85px" OnClick="ButtonClick" />
         <br />
-        <asp:Button ID="Button9" runat="server" Text="4" CssClass="boton-numero" />
-        <asp:Button ID="Button10" runat="server" Text="5" CssClass="boton-numero" />
-        <asp:Button ID="Button11" runat="server" Text="6" CssClass="boton-numero" />
-        <asp:Button ID="Button12" runat="server" Text="/" CssClass="boton-operacion" Width="85px" />
+        <asp:Button ID="Bnt4" runat="server" Text="4" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt5" runat="server" Text="5" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt6" runat="server" Text="6" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bntentre" runat="server" Text="/" CssClass="boton-operacion" Width="85px" OnClick="ButtonClick" />
         <br />
-        <asp:Button ID="Button13" runat="server" Text="1" CssClass="boton-numero" />
-        <asp:Button ID="Button14" runat="server" Text="2" CssClass="boton-numero" />
-        <asp:Button ID="Button15" runat="server" Text="3" CssClass="boton-numero" />
-        <asp:Button ID="Button16" runat="server" Text="x" CssClass="boton-operacion" Width="85px" />
+        <asp:Button ID="Bnt1" runat="server" Text="1" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt2" runat="server" Text="2" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt3" runat="server" Text="3" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bntpor" runat="server" Text="x" CssClass="boton-operacion" Width="85px" OnClick="ButtonClick" />
         <br />
-        <asp:Button ID="Button17" runat="server" Text="." CssClass="boton-punto" />
-        <asp:Button ID="Button18" runat="server" Text="0" CssClass="boton-numero" />
-        <asp:Button ID="Button19" runat="server" Text="=" CssClass="boton-igual" />
-        <asp:Button ID="Button20" runat="server" Text="+" CssClass="boton-operacion" Width="85px" />
+        <asp:Button ID="BntPunto" runat="server" Text="." CssClass="boton-punto" OnClick="ButtonClick" />
+        <asp:Button ID="Bnt0" runat="server" Text="0" CssClass="boton-numero" OnClick="ButtonClick" />
+        <asp:Button ID="Bntigual" runat="server" Text="=" CssClass="boton-igual" OnClick="ButtonClick" />
+        <asp:Button ID="Bntmas" runat="server" Text="+" CssClass="boton-operacion" Width="85px" OnClick="ButtonClick" />
     </form>
 </body>
 </html>
